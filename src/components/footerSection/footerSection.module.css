@@ -1,0 +1,37 @@
+.FooterSection_cont {
+    min-height: 65rem;
+
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.FooterSection_cont .footerText1 {
+    font-family: 'Nohemi', sans-serif;
+    ;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 3.82rem;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background: linear-gradient(90deg, #FFFFFF 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.FooterSection_cont .footerText2 {
+    width: 60%;
+    font-family: 'Nohemi', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.92rem;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #D2D2D2;
+
+}
