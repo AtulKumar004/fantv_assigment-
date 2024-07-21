@@ -47,7 +47,7 @@ export default function MidSection() {
 
       <div className={styles.globeSection_cont}>
         <div className={styles.globeImage_cont}>
-          <img src={globeImage} alt="globeImage" />
+          <img src={globeImage} alt="globeImage" className= {styles.gridImage} />
           <img
             src={userImage8}
             alt="userImage8"

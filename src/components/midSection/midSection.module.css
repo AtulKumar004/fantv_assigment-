@@ -1,12 +1,12 @@
 .mainCont {
-    width: 100%;
+    /* width: 100%;
     min-height: 98vh;
     background-color: #2A2A2B;
     padding: 4rem 3rem;
     border: 0.25px solid;
 
     border-image-source: linear-gradient(90deg, rgba(41, 41, 41, 0) -12.84%, #FFFFFF 40.98%, rgba(41, 41, 41, 0) 100.46%);
-
+ */
 
 }
 
@@ -14,7 +14,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 3rem;
 
+
+}
+
+.globeSection_cont,
+.globeImage_cont,
+.gridImage {
+    width: 100%;
 }
 
 .heading_one {
@@ -23,11 +31,22 @@
     background: linear-gradient(90deg, #FFFFFF 0%, #999999 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 2.84rem;
+    letter-spacing: 0.02em;
+    width: 90%;
 }
 
 .heading_two {
     font-family: 'Nohemi', sans-serif;
-    color: #D2D2D2
+    color: #D2D2D2;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0.02em;
+    text-align: center;
+    width: 90%;
 }
 
 .globeSection_cont {
@@ -37,14 +56,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
+    padding: 1rem;
     /* position: relative; */
 
 }
 
 
 .globeImage_cont {
-    width: 77rem;
+    width: 88rem;
     margin: auto;
 
     display: flex;
@@ -76,7 +95,7 @@
 
 
     bottom: 23%;
-    left: 1%;
+    left:-1%;
 
 
 
@@ -88,7 +107,7 @@
 
 
     bottom: 67%;
-    left: 10%;
+    left: 6%;
 
 
 }
@@ -131,8 +150,8 @@
     width: 6.4rem;
     height: 6.4rem;
 
-    bottom: 55%;
-    right: 6%;
+    bottom: 58%;
+    right: 2%;
 
 }
 
@@ -141,7 +160,7 @@
     height: 4.4rem;
 
     bottom: 23%;
-    right: 2%;
+    right: -2%;
 
 }
 
@@ -164,12 +183,12 @@
 .userImage11 {
     width: 3.2rem;
     height: 3.2rem;
-    top: 21%;
+    top: 25.5%;
     right: 2%;
 }
 
 .Elipse1 {
-    left: 6%;
+    left: 1.5%;
     bottom: 52%;
 }
 
@@ -180,20 +199,22 @@
 
 .Elipse3 {
     bottom: 45%;
-    right: 4.5%;
+    right: 0.3%;
 }
+
 .Elipse6 {
-    bottom: 28%;
-    left: -4.5%;
+    bottom: 25%;
+    left: -5.5%;
 }
+
 .Elipse7 {
     bottom: 16%;
     left: -3.5%;
 }
 
 .Elipse4 {
-    right: -31px;
-    bottom: 57%
+    right: -44px;
+    bottom: 58%;
 }
 
 .Elipse5 {
@@ -201,6 +222,19 @@
     left: -8%;
     transform: rotate(-7deg);
 }
+
+
+@media (max-width: 768px) {
+
+    .userImage {
+        transform: scale(0.6);
+        /* Scale down to 50% */
+        transform-origin: top left;
+    }
+
+
+}
+
 .cardsContainer {
     display: grid;
     gap: 3rem;
@@ -208,6 +242,9 @@
 }
 
 @media (min-width: 768px) {
+    .globeSection_cont {
+        padding: 5rem;
+    }
 
     .headingTextCont {
         gap: 4rem;
@@ -235,15 +272,12 @@
         width: 60%;
 
     }
+
     .cardsContainer {
         grid-template-columns: 1fr 1fr 1fr;
         padding: 0 5rem;
         padding-bottom: 8rem;
-        
+
     }
 
 }
-
-
-
-

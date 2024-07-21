@@ -6,10 +6,32 @@ import FooterSection from './components/footerSection/footerSection';
 
 function App() {
   return (
-    <div className="container">
-      <MainSection />
-      <MidSection />
-      <FooterSection/>
+    <div >
+      <div className='MainSection_cont'>
+        <div className="container">
+          <MainSection />
+
+        </div>
+
+      </div>
+      <div className='MidSection_cont'>
+        <div className="container">
+          <MidSection />
+
+        </div>
+
+      </div>
+      <div className='FooterSection_cont'>
+        <div className="container">
+          <FooterSection />
+
+        </div>
+
+      </div>
+
+
+
+
     </div>
   );
 }
