@@ -182,7 +182,7 @@
     width: 19.396rem;
     height: 12.524rem;
     bottom: 10%;
-    left: 4%;
+ 
     transform: rotate(-3.1deg);
     gap: 0px;
     border-radius: 1.2rem;
@@ -297,7 +297,7 @@
     .image4 {
         width: 19.396rem;
         height: 12.524rem;
-        right: 13%;
+        right: 13% ;
         top: 6%;
         transform: rotate(-3.1deg);
         gap: 0px;
@@ -321,6 +321,17 @@
 
 }
 
+@media (max-width: 768px) {
+    .image4 {
+      
+        left: 4%;
+       
+      
+    
+    
+    }
+    
+}
 .cardsCont {
     display: grid;
     gap: 3rem;
