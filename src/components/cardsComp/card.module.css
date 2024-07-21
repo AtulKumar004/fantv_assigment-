@@ -1,0 +1,76 @@
+.cardCont {
+    max-width: 60.8rem;
+    height: 21.7rem;
+    /* top: 893px;
+    left: 100px; */
+    gap: 0px;
+    border-radius: 2.4rem;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.cardCont::before {
+    content: "";
+    align-items: center;
+    position: absolute;
+    width: 407px;
+    height: 200px;
+    top: 28rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 0px;
+    opacity: 0px;
+    
+    background: #6B61FF;
+    filter: blur(12.7rem);
+
+
+}
+
+/* Ellipse 2709 */
+
+/* position: absolute;
+width: 407px;
+height: 200px;
+left: calc(50% - 407px/2 + 0.5px);
+top: 179px;
+
+background: #6B61FF; */
+
+
+
+.headingCont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.headingCont .headingText {
+    font-size: 3.2rem;
+    font-family: 'Nohemi', sans-serif;
+
+
+    font-weight: 600;
+    line-height: 3.214rem;
+    text-align: left;
+    color: #1E1E1E;
+
+}
+
+.countes {
+    font-family: 'Bricolage Grotesque' !important;
+    font-size: 8.6rem;
+    font-weight: 600;
+    line-height: 10.32rem;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #1E1E1E
+}
