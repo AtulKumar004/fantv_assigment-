@@ -20,6 +20,7 @@ import Elipse4 from "../../assets/Elipse4.svg";
 import Elipse5 from "../../assets/Elipse5.svg";
 import Elipse6 from "../../assets/Elipse6.svg";
 import Elipse7 from "../../assets/Elipse7.svg";
+import CardComp from "../cardsComp/mid_sec_card";
 
 export default function MidSection() {
   return (
@@ -195,6 +196,31 @@ export default function MidSection() {
             })}
           />
         </div>
+      </div>
+
+      <div className={styles.cardsContainer}>
+        <CardComp
+          heading="Content Nodes"
+          discrep="Content Nodes, Earn rewards for supplying their GPU, Storage and bandwidth for dCDN"
+          bgColor = "#6B61FF"
+        />
+        <CardComp
+          heading="Orchestrators"
+          discrep="Orchestrators will be responsible for connecting the client with the content node for seamless streaming. Traffic distribution will be based on multiple factors like job type, performance"
+          bgColor = "#FE9BF3"
+          commingSoonFlag = {true}
+          color = "#1E1E1E"
+        />
+        <CardComp
+          heading="Validators"
+          discrep="Validators will be responsible for validating the execution of dCDN Network. Validators will earn rewards from Staking and earn a cut on the executions validated."
+         
+          bgColor = "#ADFFE4"
+          commingSoonFlag = {true}
+          commingSoonTagFlag = {2}
+               color = "#1E1E1E"
+        />
+
       </div>
     </div>
   );
