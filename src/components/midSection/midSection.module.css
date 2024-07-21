@@ -83,7 +83,7 @@
     border-radius: 50%;
     object-fit: cover;
     gap: 0px;
-    opacity: 0px;
+ 
     position: absolute;
     z-index: 2;
 }
