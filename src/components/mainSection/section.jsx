@@ -14,11 +14,11 @@ const MainSection = () => {
   return (
     <div
       className={classNames({
-        [styles.container]: true,
+        // [styles.container]: true,
         [styles.mainCont]: true,
         [styles.mainCont_bg]: true,
       })}
-      style={{ border: "1px solid red" }}
+
     >
       <div className={styles.headingTextCont}>
         <p>Empowering the Digital Era:</p>

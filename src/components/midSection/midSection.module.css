@@ -1,0 +1,234 @@
+.mainCont {
+    width: 100%;
+    min-height: 98vh;
+    background-color: #2A2A2B;
+    padding: 4rem 3rem;
+    border: 0.25px solid;
+
+    border-image-source: linear-gradient(90deg, rgba(41, 41, 41, 0) -12.84%, #FFFFFF 40.98%, rgba(41, 41, 41, 0) 100.46%);
+
+
+}
+
+.headingTextCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.heading_one {
+    font-family: 'Nohemi', sans-serif;
+    text-align: center;
+    background: linear-gradient(90deg, #FFFFFF 0%, #999999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading_two {
+    font-family: 'Nohemi', sans-serif;
+    color: #D2D2D2
+}
+
+.globeSection_cont {
+
+    min-height: 50rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    /* position: relative; */
+
+}
+
+
+.globeImage_cont {
+    width: 77rem;
+    margin: auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    position: relative !important;
+}
+
+
+.globle_outer_cont img {
+    margin: auto;
+    width: 100%;
+}
+
+.userImage {
+    border-radius: 50%;
+    object-fit: cover;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.userImage8 {
+    width: 6.4rem;
+    height: 6.4rem;
+
+
+    bottom: 23%;
+    left: 1%;
+
+
+
+}
+
+.userImage1 {
+    width: 6.4rem;
+    height: 6.4rem;
+
+
+    bottom: 67%;
+    left: 10%;
+
+
+}
+
+.userImage2 {
+    width: 4.4rem;
+    height: 4.4rem;
+
+
+    top: 8%;
+    left: 20%;
+
+
+}
+
+.userImage3 {
+    width: 6.4rem;
+    height: 6.4rem;
+    top: -3%;
+    left: 31%;
+}
+
+.userImage4 {
+    width: 4.4rem;
+    height: 4.4rem;
+    top: -3%;
+    left: 54%;
+
+}
+
+.userImage5 {
+    width: 6.4rem;
+    height: 6.4rem;
+    top: 6%;
+    right: 21%;
+
+}
+
+.userImage6 {
+    width: 6.4rem;
+    height: 6.4rem;
+
+    bottom: 55%;
+    right: 6%;
+
+}
+
+.userImage7 {
+    width: 4.4rem;
+    height: 4.4rem;
+
+    bottom: 23%;
+    right: 2%;
+
+}
+
+.userImage9 {
+    width: 4.4rem;
+    height: 4.4rem;
+    bottom: 16%;
+    left: -11%;
+
+}
+
+.userImage10 {
+    width: 3.2rem;
+    height: 3.2rem;
+
+    top: 35%;
+    right: -5%;
+}
+
+.userImage11 {
+    width: 3.2rem;
+    height: 3.2rem;
+    top: 21%;
+    right: 2%;
+}
+
+.Elipse1 {
+    left: 6%;
+    bottom: 52%;
+}
+
+.Elipse2 {
+    top: -1.5%;
+    left: 47%;
+}
+
+.Elipse3 {
+    bottom: 45%;
+    right: 4.5%;
+}
+.Elipse6 {
+    bottom: 28%;
+    left: -4.5%;
+}
+.Elipse7 {
+    bottom: 16%;
+    left: -3.5%;
+}
+
+.Elipse4 {
+    right: -31px;
+    bottom: 57%
+}
+
+.Elipse5 {
+    bottom: 17%;
+    left: -8%;
+    transform: rotate(-7deg);
+}
+
+@media (min-width: 768px) {
+
+    .headingTextCont {
+        gap: 4rem;
+    }
+
+    .heading_one {
+
+        font-size: 3.2rem;
+        font-weight: 500;
+        line-height: 3.84rem;
+        letter-spacing: 0.02em;
+
+        width: 65%;
+
+
+    }
+
+    .heading_two {
+
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.92rem;
+        letter-spacing: 0.02em;
+        text-align: center;
+        width: 60%;
+
+    }
+
+}
